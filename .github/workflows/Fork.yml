@@ -1,4 +1,4 @@
-# 2024-02-10 20:06
+# 2024-02-10 21:50
 
 name: Fork Filter lists
 
@@ -153,7 +153,6 @@ jobs:
         if [ -f "Tool-repo/Surge/Rules/Reject.list" ] ; then
           cat Tool-repo/Surge/Rules/Ads_RuCu6.list >> Tool-repo/Surge/Rules/Reject.list
           cat Tool-repo/Surge/Rules/Ads_limbopro.list >> Tool-repo/Surge/Rules/Reject.list
-          cat Tool-repo/Surge/Rules/Ads_Dlerio.list >> Tool-repo/Surge/Rules/Reject.list
           cat Tool-repo/Surge/Rules/Ads_ConnersHua.list >> Tool-repo/Surge/Rules/Reject.list
           cat Tool-repo/Surge/Rules/Hijacking_ConnersHua.list >> Tool-repo/Surge/Rules/Reject.list
           cat Tool-repo/Surge/Rules/Tracking_ConnersHua.list >> Tool-repo/Surge/Rules/Reject.list
